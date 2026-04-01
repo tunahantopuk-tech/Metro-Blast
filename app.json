@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Metro Blast",
+    "slug": "metro-blast",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0e1a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.metroblast.game",
+      "buildNumber": "4",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0a0e1a"
+      },
+      "package": "com.metroblast.game"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "34d8c518-1f96-4a7d-a471-bb4d3c4c1412"
+      }
+    }
+  }
+}
